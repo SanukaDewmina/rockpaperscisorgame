@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rpc</title>
+  <link rel="stylesheet" href="sttyle.css" >
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rock-Paper-Scissors</h1>
+    <div class="score-board">
+      <div class="section-left">
+        <label id="computerscore">Computer:</label>
+      </div>
+      <div class="section-right">
+        <label id="yourscore">:you</label>
+      </div>
+    </div>
+    <label id="winlosetieboard">.
+      <h2 id="winmsg">YOU WIN..</h2>
+      <h2 id="tiemsg">GAME TIED..</h2>
+      <h2 id="lostmsg">YOU LOSE..</h2>
+
+    </label>
+    <hr>
+    <div class="game-buttons">
+      <img id="rock" src="img/Rock.png"  onclick="clickone();">
+      <img id="paper" src="img/Paper.png" onclick="clicktwo();">
+      <img id="scissor" src="img/secior.png" onclick="clicktree();">
+    </div>
+    <div class="btn-con">
+      <button id="resbtn" onclick="resetpoints();">Reset points</button>
+    </div>
+
+    
+
+  </div>
+  
+
+
+<script src="script.js"></script>
+</body>
+</html>

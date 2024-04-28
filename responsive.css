@@ -1,0 +1,89 @@
+@media screen and (max-width:240px ) {
+  #rock,#paper, #scissor{
+    width: 60px;
+  }
+  .game-buttons{
+    width: 100%;
+    padding: 0 10px;
+  }
+  #computerscore{
+    font-size: 15px;
+  }
+  
+  #yourscore{
+    font-size: 15px;
+  }
+  #winmsg{
+    font-size: 20px;
+    margin: 2px 0;
+  }
+  
+  #tiemsg{
+    font-size: 20px;
+    margin: 2px 0;
+  }
+  
+  #lostmsg{
+    font-size: 20px;
+    margin: 2px 0;
+  }
+  h1{
+    font-size: 30px;
+  
+  }
+  .score-board{
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+  }
+  #resbtn{
+    padding: 8px 24px;
+    font-size: 10px;
+  }
+
+}
+  
+@media screen and (max-width:400px ) {
+  #rock,#paper, #scissor{
+    width: 60px;
+  }
+  .game-buttons{
+    width: 100%;
+    padding: 0 10px;
+  }
+  #computerscore{
+    font-size: 15px;
+  }
+  
+  #yourscore{
+    font-size: 15px;
+  }
+  #winmsg{
+    font-size: 20px;
+    margin: 2px 0;
+  }
+  
+  #tiemsg{
+    font-size: 20px;
+    margin: 2px 0;
+  }
+  
+  #lostmsg{
+    font-size: 20px;
+    margin: 2px 0;
+  }
+  h1{
+    font-size: 30px;
+  
+  }
+  .score-board{
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+  }
+  #resbtn{
+    padding: 8px 24px;
+    font-size: 10px;
+  }
+
+}
